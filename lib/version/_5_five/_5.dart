@@ -3536,7 +3536,7 @@ class AiTutorService {
   static Future<String> ask(String prompt) async {
     if (!available) {
       return 'AI tutor is not configured. Run the app with '
-          '--dart-define=GEMINI_API_KEY=AQ.Ab8RN6KPtoJrZs98Ftqny_4OmnjSGKv-nOV7NyXXQUYRey8IKg';
+          '--dart-define=GEMINI_API_KEY=';
     }
     try {
       final response = await _get()
